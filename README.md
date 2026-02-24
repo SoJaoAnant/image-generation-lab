@@ -13,7 +13,7 @@ to reconstruct the input image as accuractly as possible from the image's
 latent representation.
 
 ### Check out the notebook and examples
-![AutoEncoder using MLPs, CNNs and Variational AutoEncoder](AutoEncoders\AutoEncoders_MLP_CNN_VAE.ipynb)  
+[AutoEncoder using MLPs, CNNs and Variational AutoEncoder](AutoEncoders\AutoEncoders_MLP_CNN_VAE.ipynb)  
 
 [Results](AutoEncoders\AE_results.md)
 
