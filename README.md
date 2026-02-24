@@ -10,7 +10,8 @@ to reconstruct the input image as accuractly as possible from the image's
 latent representation.
 
 ### Check out the notebook and examples
-[AutoEncoder using MLPs, CNNs and Variational AutoEncoder](AutoEncoders\AutoEncoders_MLP_CNN_VAE.ipynb)
+[AutoEncoder using MLPs, CNNs and Variational AutoEncoder](AutoEncoders\AutoEncoders_MLP_CNN_VAE.ipynb)  
+
 [Results](AutoEncoders\AE_results.md)
 
 ## GANs (Generative Adversal Networks)
@@ -22,8 +23,10 @@ The Generator tries to generate fake samples of the input image domain and its t
 The Discriminator tries to classify between the generated samples and the real samples whether fake or not, failing to do so will put it at loss, but its strength matters a lot so it is either not always fooled by the Generator or it starts to bully the generator and does not let it learn anything.
 
 ### Check out the notebook and examples
-[Vanilla GAN and WGAN with Gradient Penalty](GANs\GANs_WGANs_with_GP.ipynb)
-[WGAN on anime faces dataset](GANs\WGAN_anime_faces.ipynb)
+[Vanilla GAN and WGAN with Gradient Penalty](GANs\GANs_WGANs_with_GP.ipynb)  
+
+[WGAN on anime faces dataset](GANs\WGAN_anime_faces.ipynb)  
+
 [Results](GANs\GAN_results.md)
 
 ## Stable Diffusion 
