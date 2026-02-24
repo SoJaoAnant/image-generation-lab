@@ -6,20 +6,20 @@ you can find the experimentation logs, results and examples in the following
 
 ## AutoEncoders
 
-<img src="Images and Examples\autoencoder.png" width="400">
+<img src="Images and Examples/autoencoder.png" width="400">
 
 One of the earliest architectures of image generation models whose task was  
 to reconstruct the input image as accuractly as possible from the image's  
 latent representation.
 
 ### Check out the notebook and examples
-[AutoEncoder using MLPs, CNNs and Variational AutoEncoder](AutoEncoders\AutoEncoders_MLP_CNN_VAE.ipynb)  
+[AutoEncoder using MLPs, CNNs and Variational AutoEncoder](AutoEncoders/AutoEncoders_MLP_CNN_VAE.ipynb)  
 
-[Results](AutoEncoders\AE_results.md)
+[Results](AutoEncoders/AE_results.md)
 
 ## GANs (Generative Adversal Networks)
 
-<img src="Images and Examples\gans.png" width="400">
+<img src="Images and Examples/gans.png" width="400">
 
 One of the most interesting concepts of neural architectures was GANs.
 It consists of two models which are put against each other in a competition where both the models are supposed to do their tasks and try not to get their losses increased.
@@ -29,15 +29,15 @@ The Generator tries to generate fake samples of the input image domain and its t
 The Discriminator tries to classify between the generated samples and the real samples whether fake or not, failing to do so will put it at loss, but its strength matters a lot so it is either not always fooled by the Generator or it starts to bully the generator and does not let it learn anything.
 
 ### Check out the notebook and examples
-[Vanilla GAN and WGAN with Gradient Penalty](GANs\GANs_WGANs_with_GP.ipynb)  
+[Vanilla GAN and WGAN with Gradient Penalty](GANs/GANs_WGANs_with_GP.ipynb)  
 
-[WGAN on anime faces dataset](GANs\WGAN_anime_faces.ipynb)  
+[WGAN on anime faces dataset](GANs/WGAN_anime_faces.ipynb)  
 
-[Results](GANs\GAN_results.md)
+[Results](GANs/GAN_results.md)
 
 ## Diffusion models
 
-<img src="Images and Examples\stable_diffusion.png" width="400">
+<img src="Images and Examples/stable_diffusion.png" width="400">
 
 The Modern King of image generation, inspired by the brownian motion.
 Diffusion models work on the concept of training a model to denoise a static image to the point that it becomes an image.
