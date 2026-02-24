@@ -5,6 +5,9 @@ Several different types of datasets are used such as MNIST, Cat and Dog, Flowers
 you can find the experimentation logs, results and examples in the following
 
 ## AutoEncoders
+
+<img src="Images and Examples\autoencoder.png" width="400">
+
 One of the earliest architectures of image generation models whose task was  
 to reconstruct the input image as accuractly as possible from the image's  
 latent representation.
@@ -15,6 +18,9 @@ latent representation.
 [Results](AutoEncoders\AE_results.md)
 
 ## GANs (Generative Adversal Networks)
+
+<img src="Images and Examples\gans.png" width="400">
+
 One of the most interesting concepts of neural architectures was GANs.
 It consists of two models which are put against each other in a competition where both the models are supposed to do their tasks and try not to get their losses increased.
 
@@ -29,10 +35,13 @@ The Discriminator tries to classify between the generated samples and the real s
 
 [Results](GANs\GAN_results.md)
 
-## Stable Diffusion 
+## Diffusion models
+
+<img src="Images and Examples\stable_diffusion.png" width="400">
+
 The Modern King of image generation, inspired by the brownian motion.
 Diffusion models work on the concept of training a model to denoise a static image to the point that it becomes an image.
-Learning and Work about Stable Diffusion is still in progress... 
+Learning and Work about Diffusion models is still in progress... 
 
 ### Check out the notebook and examples
 In progress...
