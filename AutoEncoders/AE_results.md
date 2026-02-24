@@ -3,10 +3,10 @@ The Encoder and Decoder both were build using Multiple layers of perceptron, so 
 The Decrease in Loss was slow and steady and the outputs were surprisingly good only with 10 epochs, yet one could pick out the faults and the details the decoder was unable to catch.
 
 ##### Loss
-<img src="../../imgs/ae_mlp_loss.png" width="400">
+<img src="../imgs/ae_mlp_loss.png" width="400">
 
 ##### Results (Input images on top row and reconstructed on bottom)
-<img src="../../imgs/ae_mlp_res.png" width="400">
+<img src="../imgs/ae_mlp_res.png" width="400">
 
 
 ### AutoEncoders using Convolutional Neural Networks
@@ -14,10 +14,10 @@ The Encoders and Decoders both were now built using CNNs, the building block whe
 The results are quite good too!
 
 ##### Loss
-<img src="../../imgs/ae_cnn_loss.png" width="400">
+<img src="../imgs/ae_cnn_loss.png" width="400">
 
 ##### Results (Input images on top row and reconstructed on bottom)
-<img src="../../imgs/ae_cnn_res.png" width="400">
+<img src="../imgs/ae_cnn_res.png" width="400">
 
 
 ### Variational AutoEncoders
