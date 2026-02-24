@@ -7,7 +7,7 @@ and the results dont quite look like what one was supposed to generate, the imag
 ##### Loss
 <img src="../imgs/vgan_loss.png" width="400">
 
-##### Results (Input images on top row and reconstructed on bottom)
+##### Results
 <img src="../imgs/vgan_res.png" width="400">
 
 After, when many tweaks were done, everything finally stablized and the training loop looked pretty promising, the generator was stable and was finally learning.
@@ -15,7 +15,7 @@ After, when many tweaks were done, everything finally stablized and the training
 ##### Loss
 <img src="../imgs/vgan_loss_2.png" width="400">
 
-##### Results (Input images on top row and reconstructed on bottom)
+##### Results
 <img src="../imgs/vgan_res_1.png" width="400">
 <img src="../imgs/vgan_res_2.png" width="400">
 
@@ -28,7 +28,7 @@ The images generated looks like they're photorealisic and are shot on some old c
 ##### Loss
 <img src="../imgs/wgan_loss.png" width="400">
 
-##### Results (Input images on top row and reconstructed on bottom)
+##### Results 
 <img src="../imgs/wgan_res.png" width="400">
 
 ### WGAN but with the dataset "Anime Faces"
@@ -37,7 +37,7 @@ I wanted to try something else, so the flower dataset was replaced by the anime 
 ##### Loss
 <img src="../imgs/wgan_anime_loss.png" width="400">
 
-##### Results (Input images on top row and reconstructed on bottom)
+##### Results 
 <img src="../imgs/wgan_anime_res.gif" width="400">
 
 
